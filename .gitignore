@@ -1,6 +1,21 @@
-@"
-node_modules
+# Dependencies
+node_modules/
+
+# Environment files
 .env
-dist
-build
-"@ | Out-File .gitignore
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
